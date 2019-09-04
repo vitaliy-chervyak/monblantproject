@@ -8,11 +8,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<script src="js/jQuery.js"></script>
-	<script src="js/control.js"></script>
-	
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
+    <script src="js/datepicker.js"></script>
+    <script src="js/calendar.js"></script>
+
 </head>
 <body>
-  
 	<body>
 
   <!-- header -->
@@ -40,8 +41,10 @@
               <span>112</span> following
             </div>
           </div>
-          <div class="header-row-3">
-             
+          <div class="header-row-3 flex-main flex-row flex-wrap">
+               <label for="demo">Date</label>
+               <input type="text" id="calendar-1" placeholder="11-02-2016"/>
+               <input type="text" id="calendar-2" placeholder="11-06-2016"/>
           </div>
         </div> 
       </div>
@@ -51,7 +54,7 @@
 
     <section>
       <div class="container flex-main flex-wrap flex-row">
-        <div class="box">
+        <div class="box" >
           <div class="box-img">
             <img src="img/box-1-min.png" alt="картинка-1">
             </div>
@@ -97,11 +100,11 @@
               </div>
             </div>
             <div class="row-3">
-              Image <span>u</span>pload:11-04-2016
+              Image <span>u</span>pload:20-04-2016
             </div>
           </div>  
         </div>
-        <div class="box">
+        <div class="box" >
           <div class="box-img">
             <img src="img/box-2-min.png" alt="картинка-2">
             </div>
@@ -147,11 +150,11 @@
               </div>
             </div>
             <div class="row-3">
-              Image <span>u</span>pload:11-04-2016
+              Image <span>u</span>pload:29-04-2016
             </div>
           </div>  
         </div>
-        <div class="box">
+        <div class="box" >
           <div class="box-img">
             <img src="img/box-3-min.png" alt="картинка-3">
             </div>
@@ -201,7 +204,7 @@
             </div>
           </div>  
         </div>
-        <div class="box">
+        <div class="box" >
           <div class="box-img">
             <img src="img/box-4-min.png" alt="картинка-4">
             </div>
@@ -251,7 +254,7 @@
             </div>
           </div>  
         </div>
-        <div class="box">
+        <div class="box" >
           <div class="box-img">
             <img src="img/box-5-min.png" alt="картинка-5">
             </div>
@@ -301,7 +304,7 @@
             </div>
           </div>  
         </div>
-        <div class="box">
+        <div class="box" >
           <div class="box-img">
             <img src="img/box-6-min.png" alt="картинка-6">
             </div>
@@ -351,7 +354,7 @@
             </div>
           </div>  
         </div>
-        <div class="box">
+        <div class="box" >
           <div class="box-img">
             <img src="img/box-7-min.png" alt="картинка-7">
             </div>
@@ -401,7 +404,7 @@
             </div>
           </div>  
         </div>
-        <div class="box">
+        <div class="box" >
           <div class="box-img">
             <img src="img/box-8-min.png" alt="картинка-8">
             </div>
@@ -506,12 +509,6 @@
     <div class="container flex-main flex-jcontent-center">
       <button>Load more</button>
     </div>
-
-
-
-
-
-
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
